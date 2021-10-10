@@ -23,3 +23,5 @@ Overall, across all lots, the following summary statistics were observed:
 Summary statistics based on manufacturing lot were also collected, as seen below:
 <img width="469" alt="lot_summary" src="https://user-images.githubusercontent.com/84816495/136714728-56091897-8f4e-47d4-beec-2e430b1180ad.png">
 
+It is worthwhile to note that the variance of MechaCar suspension coils cannot exceed 100 pounds per square inch. This specification is met for ALL manufacturing lots in total (as seen in total summary) where variance is 62.3. However, when looking at each lot separately, Lot 3 does not have a variance that meet this requirement, with a variance of 170.3. The other lots, Lot 1 and Lot 2, both meet the specification. This indicates that AutosRUs should pay attention to Lot 3.
+
