@@ -13,3 +13,13 @@ As seen from the above summary, vehicle length and ground clearance have p-value
 We can extract the "line of best fit" from the above summary to be: mpg = 6.27(vehicle_length) + 0.00125(vehicle_weight) + 0.0688(spoiler_angle) + 3.55(ground_clearance) - 3.41(AWD) - 0.0104. Because there are multiple variables involved in this formula, there are multiple partial slopes involved. However, we can deduce whether the slope of the linear model is zero or not by looking at the p-value of the linear regression, which is 5.35E(-11). As it is much smaller than our pre-determined significance level of 0.05, we can reject our null hypothesis, which also means that the slope of this model is NOT ZERO.
 
 Finally, the R-squared value is 0.7149, which means that roughly 71.5% of the variability of our dependent variable is explained using this particular linear regression model. This indicates that this model is somewhat effective in predicting the mpg of MechaCar prototypes. 
+
+## Summary Statistics on Suspension Coils
+Suspension coils of MechaCars are investigated below to determine if their manufacturing process was consistent across the production lots. The suspension coil's PSI metrics are assessed.
+
+Overall, across all lots, the following summary statistics were observed:
+<img width="339" alt="total_summary" src="https://user-images.githubusercontent.com/84816495/136714720-1c285486-2ff9-43cc-a131-0d16cdd2fd60.png">
+
+Summary statistics based on manufacturing lot were also collected, as seen below:
+<img width="469" alt="lot_summary" src="https://user-images.githubusercontent.com/84816495/136714728-56091897-8f4e-47d4-beec-2e430b1180ad.png">
+
