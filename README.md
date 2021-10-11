@@ -44,4 +44,4 @@ And these t-tests are for each manufacturing lot:
 
 <img width="640" alt="Screen Shot 2021-10-10 at 7 57 52 PM" src="https://user-images.githubusercontent.com/84816495/136717499-0e50e21f-635d-492c-ae9d-08f7dbcd97e7.png">
 
-_Based on the above results, the p-values are 1, 0.61, and 0.04, for Lots 1, 2, and 3, respectively. Both Lots 1 and Lots 2 have p-values that are greater than 0.05 so we FAIL to reject the null hypothesis for them. However, for Lot 3, the p-value is smaller than 0.05, hence we can reject the null hypothesis._
+_Based on the above results, the p-values are 1, 0.61, and 0.04, for Lots 1, 2, and 3, respectively. Both Lots 1 and Lots 2 have p-values that are greater than 0.05 so we FAIL to reject the null hypothesis for them. However, for Lot 3, the p-value is smaller than 0.05, hence we can reject the null hypothesis. As in, for Lot 3, there is significant difference between the mean PSI of Lot 3 and the population mean of 1500 PSI._
