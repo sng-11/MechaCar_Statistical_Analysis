@@ -48,6 +48,11 @@ _Based on the above results, the p-values are 1, 0.61, and 0.04, for Lots 1, 2, 
 
 
 ## Study Design: MechaCar vs Competition
-To ensure that MechaCar will yield profits for the company, it is vital to consider how it fares compared to its competitors. An important feature that all car consumers value is safety rating so this section highlights how to investigate MechaCar's safety compared to others.
+To ensure that MechaCar will yield profits for the company, it is vital to consider how it fares compared to its competitors. An important feature that all car consumers value is how much the car will cost to maintain optimal performance, as in the maintenance cost. This section will focus on how we assess MechaCar's maintenance cost compared to its competitors.
+
+The metric that will be tested is the maintenance cost, which will be the total spent per year. Monetary values mean that the data will be numerical and continuous. 
+
+For the purpose of comparing whether MechaCar fares better or worse than its competitor, which for our purpose is the Tesla Model S, we develop the following hypotheses:
+- Null hypothesis: 
 
 
