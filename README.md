@@ -31,8 +31,8 @@ It is worthwhile to note that the variance of MechaCar suspension coils cannot e
 T-tests were performed on suspension coil data from the MechaCar prototypes to determine if production of these coils of all lots and each lot individually are statistically different from the population mean of 1500 pounds per square inch.
 
 The following hypotheses were determined before the statistical analysis:
-Null Hypothesis: There is no significant difference between the mean PSI of all manufacturing lots and individual lots and population mean of 1500 PSI.
-Alternate Hypothesis: There is significant difference between the mean PSI of all manufacturing lots and population mean of 1500 PSI.
+- Null Hypothesis: There is no significant difference between the mean PSI of all manufacturing lots and individual lots and population mean of 1500 PSI.
+- Alternate Hypothesis: There is significant difference between the mean PSI of all manufacturing lots and population mean of 1500 PSI.
 
 This t-test is for all manufacturing lots:
 
