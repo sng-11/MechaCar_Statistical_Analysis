@@ -53,6 +53,12 @@ To ensure that MechaCar will yield profits for the company, it is vital to consi
 The metric that will be tested is the maintenance cost, which will be the total spent per year. Monetary values mean that the data will be numerical and continuous. 
 
 For the purpose of comparing whether MechaCar fares better or worse than its competitor, which for our purpose is the Tesla Model S, we develop the following hypotheses:
-- Null hypothesis: 
+- Null hypothesis: There is NO statistical difference between the distribution means of maintenance cost from MechaCar and from Tesla Model S. 
+- Alternate hypothesis: There IS a statistical difference between the distribution means of maintenance cost from MechaCar and from Tesla Model S. 
+- For the purpose of our study, we will set the significant value to be 0.05.
+
+The statistical test used would be the TWO-SAMPLE T-TEST because there are two samples considered (MechaCar and Tesla Model S) and we are comparing these two groups against each other. Since the dependent variable, maintenance cost, is continuous and numerical, it makes sense to use the two-sample t-test. 
+
+Finally, in order to make this test a reality, data will need to be collected regarding how much maintenance costs per year for the MechaCar and also for the Tesla Model S. Ideally, a large sample size will be preferred.
 
 
