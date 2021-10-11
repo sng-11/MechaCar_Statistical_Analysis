@@ -28,12 +28,20 @@ It is worthwhile to note that the variance of MechaCar suspension coils cannot e
 
 ## T-Tests on Suspension Coils
 
-T-tests were performed on suspension coil data from the MechaCar prototypes to determine if production of these coils of all lots and each lot individually are statistically different from the population mean of 1500 pounds per square inch. 
+T-tests were performed on suspension coil data from the MechaCar prototypes to determine if production of these coils of all lots and each lot individually are statistically different from the population mean of 1500 pounds per square inch.
+
+The following hypotheses were determined before the statistical analysis:
+Null Hypothesis: There is no significant difference between the mean PSI of all manufacturing lots and individual lots and population mean of 1500 PSI.
+Alternate Hypothesis: There is significant difference between the mean PSI of all manufacturing lots and population mean of 1500 PSI.
 
 This t-test is for all manufacturing lots:
 
 <img width="407" alt="Screen Shot 2021-10-10 at 7 52 52 PM" src="https://user-images.githubusercontent.com/84816495/136717491-41dc9603-3691-4de7-8946-353f9137ff58.png">
 
+_Based on the above results, the p-value is 0.06 across all lots, which is greater than the significant value we set as 0.05. As such, we FAIL to reject the null hypothesis._
+
 And these t-tests are for each manufacturing lot:
 
 <img width="640" alt="Screen Shot 2021-10-10 at 7 57 52 PM" src="https://user-images.githubusercontent.com/84816495/136717499-0e50e21f-635d-492c-ae9d-08f7dbcd97e7.png">
+
+_Based on the above results, the p-values are 1, 0.61, and 0.04, for Lots 1, 2, and 3, respectively. Both Lots 1 and Lots 2 have p-values that are greater than 0.05 so we FAIL to reject the null hypothesis for them. However, for Lot 3, the p-value is smaller than 0.05, hence we can reject the null hypothesis._
