@@ -18,6 +18,7 @@ Finally, the R-squared value is 0.7149, which means that roughly 71.5% of the va
 Suspension coils of MechaCars are investigated below to determine if their manufacturing process was consistent across the production lots. The suspension coil's PSI metrics are assessed.
 
 Overall, across all lots, the following summary statistics were observed:
+
 <img width="339" alt="total_summary" src="https://user-images.githubusercontent.com/84816495/136714720-1c285486-2ff9-43cc-a131-0d16cdd2fd60.png">
 
 Summary statistics based on manufacturing lot were also collected, as seen below:
@@ -30,7 +31,9 @@ It is worthwhile to note that the variance of MechaCar suspension coils cannot e
 T-tests were performed on suspension coil data from the MechaCar prototypes to determine if production of these coils of all lots and each lot individually are statistically different from the population mean of 1500 pounds per square inch. 
 
 This t-test is for all manufacturing lots:
+
 <img width="407" alt="Screen Shot 2021-10-10 at 7 52 52 PM" src="https://user-images.githubusercontent.com/84816495/136717491-41dc9603-3691-4de7-8946-353f9137ff58.png">
 
 And these t-tests are for each manufacturing lot:
+
 <img width="640" alt="Screen Shot 2021-10-10 at 7 57 52 PM" src="https://user-images.githubusercontent.com/84816495/136717499-0e50e21f-635d-492c-ae9d-08f7dbcd97e7.png">
